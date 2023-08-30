@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 5px 10px;
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+	text-align: left;
+	/* font-weight: bold; */
+}
+/*----------------------------------------------
+    S T Y L E S
+------------------------------------------------*/
+
+
+body{
+	background-color: #f8e0d9;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Lilita One', cursive;
+}
+
+img{
+	height: 20%;
+	width: 20%;
+}
+/* *{transition:all 0.3s ease-in-out;} */
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left; height: 15%; width: 15%;}
+
+ul li{
+  display: inline-block; padding:10px;
+  height: 100%;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+
+.opening{
+  background-image: url(../img/bg.png);
+}
+
+/* 
+  /* color change on hover */
+  li a:hover {
+    background-color: #fa90d1;
+    color: #fff;
+  }
+  /* unvisited link */
+a:link {
+  color: #fa90d1;
+}
+
+/* visited link */
+a:visited {
+  color: #fa90d1;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f0860d;
+}
+
+/* selected link */
+a:active {
+  color:  #f0860d;
+} */

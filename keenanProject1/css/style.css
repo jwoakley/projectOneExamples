@@ -1,0 +1,311 @@
+html {
+	background: url(../img/bgwob.gif) no-repeat center center fixed;
+	-webkit-background-size: fixed;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* header {
+      display: flex; maybe add % min hieght and width? margins?
+  } */
+
+nav {
+	position: relative;
+	top: 5%;
+	min-width: 65%;
+	margin: 0% 17% 0% 17%;
+	box-sizing: border-box;
+	align-items: center;
+	font-family: "Bungee";
+	color: white;
+	text-align: center;
+	font-size: 3.1em;
+	word-spacing: 1.2em;
+	border: .1em solid #C1272D;
+	background-color: black;
+	text-decoration: none;
+	padding: .1em;
+	z-index: 4;
+	/* margin: 0px 20% -90% 20%;
+    padding:0px 1em 0 0%; */
+	/* left: 17%; */
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* flex-wrap: nowrap; */
+	/* padding: 0px 4%;
+    min-width: 50%; */
+}
+a {
+	color: white;
+}
+.first {
+	color: white;
+	font-family: "Bungee";
+	font-size: .9em;
+	position: relative;
+	top: 0%;
+	left: 5%;
+	box-sizing: content-box;
+	text-align: left;
+	/* word-spacing: 400%; */
+	word-spacing: .4em;
+	border: #C1272D solid 1em;
+	background-color: #C1272D;
+	padding: .2em;
+	margin-right: 10%;
+}
+.middle {
+	color: white;
+	font-family: "Bungee";
+	font-size: .9em;
+	position: relative;
+	top: 0%;
+	left: 5%;
+	box-sizing: content-box;
+	word-spacing: .4em;
+	border: #C1272D solid 1em;
+	background-color: #C1272D;
+	padding: .2em;
+	margin-right: 10%;
+	z-index: 3;
+}
+.last {
+	color: white;
+	font-family: "Bungee";
+	font-size: .9em;
+	position: relative;
+	top: 0%;
+	left: 5%;
+	box-sizing: content-box;
+	word-spacing: .4em;
+	border: #C1272D solid 1em;
+	background-color: #C1272D;
+	padding: .2em;
+	margin-right: 10%;
+	z-index: 3;
+}
+.podium {
+	position: relative;
+	display: inline-flex;
+	left: 0%;
+	bottom: 10%;
+	height: auto;
+	width: 100%;
+	margin-top: 30%;
+	letter-spacing: 200%;
+}
+/* div { */
+
+/* margin: 92.5% 0px 0px -250px; */
+
+/* opacity: 0;  
+} */
+
+#face {
+	position: relative;
+	height: 25%;
+	width: 100%;
+	bottom: -20%
+}
+#face img {
+	position: fixed;
+	left: 35%;
+	bottom: 8%;
+	width: 30%;
+	height: auto;
+	z-index: 1;
+}
+header {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#c1 {
+	position: absolute;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	left: 2.5%;
+	top: 30%;
+	width: 30%;
+	height: 110%;
+	margin-bottom: 10%;
+	/* background-color: aqua; */
+}
+#c2 {
+	position: absolute;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	left: 35%;
+	bottom: 5%;
+	top: 30%;
+	width: 30%;
+	height: 110%;
+	margin-bottom: 10%;
+	/* background-color: blue; */
+}
+#c3 {
+	position: absolute;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex start;
+	left: 67.5%;
+	bottom: 5%;
+	top: 30%;
+	width: 30%;
+	height: 110%;
+	margin-bottom: 10%;
+	/* background-color: greenyellow; */
+}
+.one {
+	color: white;
+	font-family: "Bungee";
+	font-size: .9em;
+	position: relative;
+	bottom: 0%;
+	left: 5%;
+	box-sizing: content-box;
+	text-align: left;
+	border: #C1272D solid 1em;
+	background-color: #C1272D;
+	padding: .2em;
+	margin-right: 10%;
+	word-spacing: .4em;
+}
+.uno {
+	position: relative;
+	display: inline-flex;
+	left: 5%;
+	top: 0%;
+	height: auto;
+	width: 90%;
+	margin-bottom: 10%;
+	padding: 2%;
+	border: .3em solid#C1272D;
+	background-color: black;
+}
+.two {
+	color: white;
+	font-family: "Bungee";
+	font-size: .9em;
+	position: relative;
+	top: 0%;
+	left: 5%;
+	box-sizing: content-box;
+	border: #C1272D solid 1em;
+	background-color: #C1272D;
+	padding: .2em;
+	margin-right: 10%;
+	z-index: 3;
+	word-spacing: .4em;
+}
+.three {
+	color: white;
+	font-family: "Bungee";
+	font-size: .9em;
+	position: relative;
+	top: 0%;
+	left: 5%;
+	box-sizing: content-box;
+	border: #C1272D solid 1em;
+	background-color: #C1272D;
+	padding: .2em;
+	margin-right: 10%;
+	z-index: 3;
+	word-spacing: .4em;
+}
+#box {
+	color: white;
+	font-family: "Bungee";
+	font-size: 1.5em;
+	box-sizing: content-box;
+	word-spacing: .4em;
+	border: #C1272D solid .2em;
+	background-color: black;
+	padding: 1em;
+	margin-right: 10%;
+	margin-bottom: 200%;
+	z-index: 3;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+/* Here is the base for the tickertape */
+
+* {
+	box-sizing: border-box;
+}
+@-webkit-keyframes ticker {
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+@keyframes ticker {
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+.ticker-wrap {
+	position: relative;
+	margin-top: 5%;
+	bottom: 0;
+	width: 50%;
+	overflow: hidden;
+	height: 4rem;
+	background-color: #C1272D;
+	padding-left: 50%;
+	box-sizing: content-box;
+	z-index: 2;
+	border: black solid .5em
+}
+.ticker-wrap .ticker {
+	display: inline-block;
+	height: 4rem;
+	line-height: 4rem;
+	white-space: nowrap;
+	padding-right: 100%;
+	box-sizing: content-box;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-name: ticker;
+	animation-name: ticker;
+	-webkit-animation-duration: 70s;
+	animation-duration: 70s;
+}
+.ticker-wrap .ticker__item {
+	display: inline-block;
+	padding: 0 2rem;
+	font-size: 2rem;
+	font-family: "Bungee";
+	color: white;
+}
+em {
+	font-family: "Bungee";
+	font-size: 2rem;
+	/* text-decoration: underline; */
+	/* make leading smaller */
+}
