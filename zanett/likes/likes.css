@@ -1,0 +1,149 @@
+h4 {
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-size-adjust: auto;
+    font-weight: 900;
+    color: #132fba;
+}
+
+.music-img {
+    width: 14%;
+    border-radius: 100%;
+    border: 3px solid #132fba;
+    padding: 10px;
+    margin: 1%;
+}
+
+.spotify-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.spotify-gallery {
+    display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.text-cell{
+    justify-content: left;
+    margin-right: 5%;
+    padding-top: 2%;
+}
+
+.spotify-p {
+    padding-bottom: 5%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.spotify-list {
+    font-family: 'Jost', sans-serif;
+    text-align: left;
+}
+
+.spotify-artist#icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-basis: 13%;
+	padding: 1.5%;
+    font-size: fit;
+    border: 4px solid #132fba;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.spotify-artist img {
+	object-fit: contain;
+	width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid #132fba;
+    border-radius: 100%;
+}
+
+.view-profile {
+    text-decoration: none;
+}
+
+.section-title {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #132fba;
+    width: fit-content;
+    border: 2.25px solid #132fba;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+h5 {
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 14px;
+    color: #132fba;
+    background-color: #fff9f0;
+    border: 3px solid #132fba;
+    padding: 4px;
+}
+
+h5:hover {
+    color: #fff9f0;
+    background-color: #132fba;
+    border: 3px solid #132fba;
+    transition-duration: 400ms;
+}
+
+.tv-gallery {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.tv-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-basis: 27%;
+    font-size: fit;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.tv-h4 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #132fba;
+    width: fit-content;
+    border: 2.25px solid #132fba;
+    border-radius: 8px;
+    padding: 5px;
+    margin: auto;
+}
+
+.tv-img {
+    height: 475px;
+    border-radius: 20px;
+}
+
+.tv-img:hover {
+    height: 515px;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.tv-p {
+    text-align: justify;
+}

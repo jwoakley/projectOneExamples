@@ -1,0 +1,86 @@
+h4 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #132fba;
+    width: fit-content;
+    border: 2.25px solid #132fba;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin: 0px 7% 10px 0%;
+}
+
+.pinterest-p {
+    padding-bottom: 5%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.pinterest-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.text-cell{
+    width: 25%;
+    justify-content: left;
+    padding-top: 2%;
+}
+
+.pinterest-img-cell {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 75%;
+}
+
+.pinterest-img-cell img {
+    max-width: 95%;
+    padding-left: 5%;
+}
+
+.ig-gallery {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.ig-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-basis: 20%;
+    font-size: fit;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.ig-h4 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #132fba;
+    width: fit-content;
+    border: 2.25px solid #132fba;
+    border-radius: 8px;
+    padding: 5px;
+    margin: auto;
+}
+
+.ig-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ig-p {
+    text-align: justify;
+}
+
+
