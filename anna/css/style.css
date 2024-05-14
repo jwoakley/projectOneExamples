@@ -1,0 +1,250 @@
+* {
+    margin: 0%;
+}
+
+/* Header */
+nav a { 
+    font-style: normal ; 
+    text-decoration: none; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    color: #C0AA75;
+    display: inline-flex;
+}
+@media (min-width: 720px) {
+#logocontainer{
+    width: 20%;
+}
+}
+@media (max-width: 720px) {
+    #logocontainer{
+        display: center;
+    }
+}
+
+#Homelogo{
+    width: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+header{ 
+    background-color: #213331;
+    padding: 5px;
+    height: auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu > a:hover{
+    color: white;
+}
+
+.menu > a {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    display: inline-flex;
+}
+
+/* Body - General*/
+
+body { 
+    background-color: #FAFBF4;
+    background-image: url(../img/Bamboo.png);
+    background-repeat: no-repeat;
+    background-position-x: -270px;
+    background-size: 50em;
+}
+
+main{
+    margin-bottom: 5%;
+    padding-left: 11em;
+    padding-right: 11em;
+}
+
+h1{
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#A18E61;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 70px;
+
+}
+
+
+p {
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#60554F;
+    font-size: 20px;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+#intro {
+    margin-top: 1.5%;
+}
+
+.imgcontainer {
+    margin-left: 5em;
+    min-width: 180px;
+    
+}
+
+.imgcontainer > img{
+    height: 100%;
+    width: 100%;
+}
+
+#gifcontainer {
+    margin-left: 5em;
+    display: block;
+    width: 90%;
+    margin-top: 5%;
+}
+
+#gifcontainer > img{
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+/*About*/
+.baby {
+    margin-right: 5%;
+    width:320%;
+}
+
+.sfsu {
+    margin-right: 1.5%;
+    width:200%;
+    order: -1;
+}
+
+.portrait{
+    margin-right: 5%;
+    width:280%
+}
+
+
+/*Interest*/
+.art {
+    margin-right: 5%;
+    width:210%
+}
+
+.music{
+    margin-right: 1.5%;
+    width:140%;
+    order: -1;
+}
+
+.game{
+    margin-right: 5%;
+    width:210%
+}
+
+p > a{
+    color:#8b7a5a;
+    text-decoration: none;
+}
+
+p > a:hover{
+    text-decoration: underline;
+    color: #60554F;
+}
+
+
+/*Activity*/
+
+.taylor{
+    margin-right: 5%;
+    width:150%
+}
+
+.socialmedia {
+    margin-right: 1.5%;
+    width:250%;
+    order: -1;
+}
+
+.baldurgate{
+    margin-right: 5%;
+    width:110%
+}
+
+
+/* Footer */
+footer {
+    background-color: #213331;
+    padding: 30px;
+
+}
+
+h3 {
+    font-style: normal ; 
+    text-decoration: none; 
+    font-family: 'Poppins', sans-serif; 
+    color: #C0AA75;
+    padding-bottom: 5%;
+}
+
+.footerlist, .footerlistlink,  .footerlistlink > a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #C0AA75;
+    font-style: normal ;  
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.footercontent{
+    padding-left: 3%;
+    display: inline-block;
+}
+
+.footerlistlink > a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.icons> a > img{
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footall{
+    display: inline-block;
+    width: 65%;
+}
