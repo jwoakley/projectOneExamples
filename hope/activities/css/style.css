@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    }
+/* nav section */
+.topnav {
+    overflow: hidden;
+    background-color: #F7ECA6;
+}
+nav {
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 200px;
+    margin: 40px;
+    background-color: #F7ECA6;
+}
+nav a {
+    color: #54366E;
+    font-size: 60px;
+    text-decoration: none;
+    background-color: #F7ECA6;
+}
+
+.current {
+    color: #78CCAD;
+}
+
+nav a:hover {
+    color: #FFB2E4;
+}
+
+/* body */
+body {
+    background-color: #78CCAD;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/everything-nice.gif);
+    background-repeat: repeat;
+    background-position-x: center;
+    background-position-y: center; 
+}
+.powerpuff {
+    width: 300px;
+    height: 300px;
+}
+.title {
+    background-image: url(activities/img/ringerbg.PNG);
+}
+h1 {
+    color: #3A75B5;
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 90px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px;
+}
+.ig {
+    font-size: 70px;
+}
+
+p {
+    text-align: center;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #3F2A52;
+}
+
+
+h2 {
+    color: #FFD1F7;
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px; 
+}
+.ad-explanation {
+    text-align: center;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    color: #3F2A52;
+}
+
+.container {
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin-bottom: 50px;
+}
+.golf-context {
+    align-items: center;
+}
+.lefleur {
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    margin-left: 100px;
+}
+.golf-explanation {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+.analuisa {
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    margin-left: 100px;
+}
+.analuisa-explanation {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.seree-context {
+    align-items: center;
+}
+.seree {
+    justify-self: center;
+    width: 300px;
+    height: 600px;
+    margin-left: 90px;
+}
+
+.seree-explanation {
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* social-links */
+.social-links {
+    font-family: "arbotek", sans-serif;
+    word-spacing: 200px;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F7ECA6;
+}
+.social-links a {
+    text-decoration: none;
+    background-color: #F7ECA6;
+}
+
+/* footer */
+footer {
+    overflow: hidden;
+    background-color: #F7ECA6;
+}
+
+footer a {
+    background-color: #F7ECA6;
+    color: #54366E;
+}
+
+footer a:hover {
+    color: #db2ca1;
+}

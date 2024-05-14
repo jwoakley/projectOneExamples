@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    }
+
+/* nav section */
+.topnav {
+    overflow: hidden;
+    background-color: #F7ECA6;
+}
+nav {
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 200px;
+    margin: 40px;
+    background-color: #F7ECA6;
+}
+nav a {
+    color: #54366E;
+    font-size: 60px;
+    text-decoration: none;
+    background-color: #F7ECA6;
+}
+
+.current {
+    color: #db2ca1;
+}
+nav a:hover {
+    color: #FFB2E4;
+}
+
+/* body section */
+
+body {
+    background-image: radial-gradient(#F5C4E5, #ea83c8,#db2ca1);
+    height: 100vh;
+}
+/* headers */
+h1,h2 {
+    margin-left: 100px;
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
+    color: white;
+}
+
+.interact {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5px;
+}
+
+.powerpuff {
+    width: 50;
+    height: 50;
+    align-items: center;
+    padding: 30px;
+    background-image: url(../img/everything-nice.GIF);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+}
+/* photo and bio */
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5px;
+}
+
+
+.image {
+    margin-top: 5px;
+    margin-left: 120px;
+    position: absolute;
+}
+.back {
+    background-image: url("img/photo-bg_.png");
+    margin-left: 10px;
+}
+
+.bio {
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #3F2A52;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 40px 10px 10px;
+    gap: 20px;
+}
+/* footer */
+.social-links {
+    font-family: "arbotek", sans-serif;
+    word-spacing: 200px;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F7ECA6;
+}
+.social-links a {
+    text-decoration: none;
+    background-color: #F7ECA6;
+}
+
+/* footer */
+footer {
+    overflow: hidden;
+    background-color: #F7ECA6;
+}
+
+footer a {
+    background-color: #F7ECA6;
+    color: #54366E;
+}
+
+footer a:hover {
+    color: #db2ca1;
+}
+/* https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html */

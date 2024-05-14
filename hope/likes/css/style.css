@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    }
+/* nav section */
+.topnav {
+    overflow: hidden;
+    background-color: #F7ECA6;
+}
+nav {
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 200px;
+    margin: 40px;
+    background-color: #F7ECA6;
+}
+nav a {
+    color: #54366E;
+    font-size: 60px;
+    text-decoration: none;
+    background-color: #F7ECA6;
+}
+
+.current {
+    color: #57C0D5;
+}
+
+nav a:hover {
+    color: #FFB2E4;
+}
+
+
+/* body */
+body {
+    background-color: #B3EBFC;
+}
+.top-notes {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.bar {
+    width: 700px;
+}
+h1 {
+    color: #ED37C3;
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 60px;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.powerpuff {
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-image: url(../img/twinkle.gif);
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    background-position-y: 60px;
+}
+
+.moosic {
+    margin-right: 200px;
+    float: right;
+    width: 600px;
+    height: 400px;
+}
+
+.description p {
+    text-align: center;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin: 30px 10px 50px 30px;
+    color: #3F2A52;
+}
+
+h2 {
+    color: #ED37C3;
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.playlist {
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 80px;
+    text-align: left;
+}
+
+.laufey {
+    letter-spacing: 10px;
+}
+
+.laufey-context {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.laufey-explanation {
+    text-align: left;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: 10px 30px 10px 10px;
+    color: #3F2A52;
+}
+.parents-context {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.parents-explanation {
+    text-align: left;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: 10px 30px 10px 10px;
+    color: #3F2A52;
+}
+
+.frank-context {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.frank-explanation {
+    text-align: left;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: 10px 30px 10px 10px;
+    color: #3F2A52;
+}
+.spotify {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+/* social-links */
+.social-links {
+    font-family: "arbotek", sans-serif;
+    word-spacing: 200px;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F7ECA6;
+}
+.social-links a {
+    text-decoration: none;
+    background-color: #F7ECA6;
+}
+
+/* footer */
+footer {
+    overflow: hidden;
+    background-color: #F7ECA6;
+}
+
+footer a {
+    background-color: #F7ECA6;
+    color: #54366E;
+}
+
+footer a:hover {
+    color: #db2ca1;
+}
